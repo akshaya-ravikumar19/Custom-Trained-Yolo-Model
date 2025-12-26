@@ -2,11 +2,11 @@
 
 This repository demonstrates the complete workflow for custom vehicle detection using a YOLO-based object detection model, with dataset annotation and preprocessing handled through Roboflow.
 
-# Project Purpose
+## Project Purpose
 
 The main goal of this project is to explore how a custom-trained YOLO model can effectively detect vehicles in road traffic scenes using a relatively small, domain-specific dataset. Instead of relying solely on large, generic datasets, this project shows how tailored data annotation and augmentation can significantly improve model performance for specific traffic environments.
 
-# Dataset & Annotation
+## Dataset & Annotation
 
 Road traffic images were manually annotated using Roboflow
 Bounding boxes were created for vehicle classes such as cars, buses, trucks, and bikes (depending on dataset scope)
@@ -16,7 +16,7 @@ Roboflow was also used for:
 2. Data augmentation (brightness, blur, motion blur, mosaic, etc.)
 3. Exporting the dataset in YOLO-compatible format
 
-# Model Training
+## Model Training
 
 A YOLO model was trained on the annotated dataset
 
@@ -25,13 +25,13 @@ The training process focuses on:
 2. Handling lighting variations, motion blur, and partial occlusions
 3. Improving real-world robustness through controlled augmentation
 
-# This project is useful for:
+## This objective is useful for:
 
 1. Learning end-to-end custom object detection pipelines
 2. Understanding how Roboflow simplifies annotation and augmentation
 3. Training YOLO models with limited but high-quality data
 
-# Applications:
+## Applications:
 
 1. Traffic monitoring
 2. Intelligent transportation systems
