@@ -29,16 +29,16 @@ The training process focuses on:
 
 # This project is useful for:
 
-Learning end-to-end custom object detection pipelines
-Understanding how Roboflow simplifies annotation and augmentation
-Training YOLO models with limited but high-quality data
+1. Learning end-to-end custom object detection pipelines
+2. Understanding how Roboflow simplifies annotation and augmentation
+3. Training YOLO models with limited but high-quality data
 
 # Applications:
 
-Traffic monitoring
-Intelligent transportation systems
-Smart city solutions
-Autonomous and assisted driving research
+1. Traffic monitoring
+2. Intelligent transportation systems
+3. Smart city solutions
+4. Autonomous and assisted driving research
 
 # Key Takeaway
 
