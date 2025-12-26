@@ -1,6 +1,4 @@
-# Custom-Trained-Yolo-Model
-
-#Custom YOLO Training for Vehicle Detection
+# Custom YOLO Training for Vehicle Detection
 
 This repository demonstrates the complete workflow for custom vehicle detection using a YOLO-based object detection model, with dataset annotation and preprocessing handled through Roboflow.
 
@@ -14,11 +12,11 @@ Road traffic images were manually annotated using Roboflow
 Bounding boxes were created for vehicle classes such as cars, buses, trucks, and bikes (depending on dataset scope)
 
 Roboflow was also used for:
-Image preprocessing (resizing, auto-orientation)
-Data augmentation (brightness, blur, motion blur, mosaic, etc.)
-Exporting the dataset in YOLO-compatible format
+1. Image preprocessing (resizing, auto-orientation)
+2. Data augmentation (brightness, blur, motion blur, mosaic, etc.)
+3. Exporting the dataset in YOLO-compatible format
 
-#Model Training
+# Model Training
 
 A YOLO model was trained on the annotated dataset
 
